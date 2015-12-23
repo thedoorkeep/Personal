@@ -1,3 +1,33 @@
+.scale {
+  width: 100%;
+}
+
+.fixed-left {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.fixed-right {
+  width: 90%;
+  margin: 0 5%;
+}
+
+@media (min-width: 768px) {
+  .fixed-left {
+    position: fixed;
+    width: 18%;
+  }
+
+  .fixed-right {
+    width: 70%;
+    margin-left: 30%;
+  }
+}
+
+article {
+  padding-top: 50px;
+}
+
 .background-home {
   background-image: url('http://i.imgur.com/KMJ0G2o.jpg');
   background-size: cover;
@@ -17,8 +47,10 @@
   background-size: cover;
   background-position: center center;
   height: 105vh;
+  width: 100%;
   text-align: center;
   background-attachment: fixed;
+  position: fixed;
 }
 
 p {
