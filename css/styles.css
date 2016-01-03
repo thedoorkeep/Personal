@@ -80,3 +80,12 @@ p {
   margin-top: 10px;
   text-align: center;
 }
+
+.header-waystone {
+  background-image: url('http://rule13.com/beerrun/hophead/wp-content/uploads/2014/01/taps.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 25vh;
+  margin-top: 10px;
+  text-align: center;
+}
