@@ -1,5 +1,14 @@
 .scale {
-  width: 100%;
+  width: 90%;
+}
+
+.scale-work {
+  height: 80%;
+}
+
+.index-logo{
+  width: 80%;
+  margin-top: 40%;
 }
 
 .fixed-left {
@@ -11,6 +20,63 @@
 .fixed-right {
   width: 90%;
   margin: 0 5%;
+}
+
+.main-nav {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+}
+
+.tappist {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-image: url('http://rule13.com/beerrun/hophead/wp-content/uploads/2014/01/taps.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.waystone {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/46/A_Game_Of_Thrones_board_game_detail.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.branding {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-image: url('https://milleniamen.files.wordpress.com/2014/07/pen-notebook.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.marketing {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-image: url('http://reynoldsfineart.com/gallery/wp-content/uploads/2012/11/pencils-image-1.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.more {
+  width: 50%;
+  height: 300px;
+  text-align: center;
+  float: left;
+  background-image: url('https://quinncreative.files.wordpress.com/2012/05/colored_pencils.jpg');
+  background-size: cover;
+  background-position: center center;
 }
 
 @media (min-width: 768px) {
@@ -25,6 +91,13 @@
     width: 70%;
     margin-left: 30%;
   }
+
+  .index-logo {
+    width: 70%;
+    margin-top: 10%;
+  }
+
+
 }
 
 article {
@@ -37,12 +110,6 @@ article {
   background-position: center center;
   height: 100vh;
   text-align: center;
-  display: fixed;
-}
-
-.logo {
-  background-blend-mode: color-dodge;
-  margin-top: 10%;
   display: fixed;
 }
 
