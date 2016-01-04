@@ -5,6 +5,7 @@
 .fixed-left {
   width: 80%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .fixed-right {
@@ -16,6 +17,8 @@
   .fixed-left {
     position: fixed;
     width: 18%;
+    text-align: center;
+    margin-left: -2%;
   }
 
   .fixed-right {
