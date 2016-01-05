@@ -22,6 +22,12 @@
   margin: 0 5%;
 }
 
+.main-link {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+
 .main-nav {
   width: 50%;
   height: 300px;
@@ -34,7 +40,7 @@
   height: 300px;
   text-align: center;
   float: left;
-  background-image: url('http://rule13.com/beerrun/hophead/wp-content/uploads/2014/01/taps.jpg');
+  background-image: url('http://imgur.com/SDOyzI8.jpg');
   background-size: cover;
   background-position: center center;
 }
@@ -44,7 +50,7 @@
   height: 300px;
   text-align: center;
   float: left;
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/46/A_Game_Of_Thrones_board_game_detail.jpg');
+  background-image: url('http://imgur.com/ILhLf4K.jpg');
   background-size: cover;
   background-position: center center;
 }
