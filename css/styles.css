@@ -4,6 +4,7 @@
 
 .scale-work {
   height: 80%;
+  padding-top: 15px;
 }
 
 .index-logo{
@@ -37,7 +38,7 @@
 
 .tappist {
   width: 50%;
-  height: 300px;
+  height: 33vh;
   text-align: center;
   float: left;
   background-image: url('http://imgur.com/SDOyzI8.jpg');
@@ -47,7 +48,7 @@
 
 .waystone {
   width: 50%;
-  height: 300px;
+  height: 33vh;
   text-align: center;
   float: left;
   background-image: url('http://imgur.com/ILhLf4K.jpg');
@@ -57,33 +58,54 @@
 
 .branding {
   width: 50%;
-  height: 300px;
+  height: 33vh;
   text-align: center;
   float: left;
-  background-image: url('https://milleniamen.files.wordpress.com/2014/07/pen-notebook.jpg');
+  background-image: url('http://imgur.com/PrD1LYY.jpg');
   background-size: cover;
   background-position: center center;
 }
 
 .marketing {
   width: 50%;
-  height: 300px;
+  height: 33vh;
   text-align: center;
   float: left;
-  background-image: url('http://reynoldsfineart.com/gallery/wp-content/uploads/2012/11/pencils-image-1.jpg');
+  background-image: url('http://imgur.com/noCH8MV.jpg');
   background-size: cover;
   background-position: center center;
 }
 
 .more {
   width: 50%;
-  height: 300px;
+  height: 33vh;
   text-align: center;
   float: left;
-  background-image: url('https://quinncreative.files.wordpress.com/2012/05/colored_pencils.jpg');
+  background-image: url('http://imgur.com/Svy7tTg.jpg');
   background-size: cover;
   background-position: center center;
 }
+
+.tappist:hover > .overlay {
+    position: absolute;
+    top: 0;
+    width:100%;
+    height:100%;
+    left: 0;
+    background-color:#000;
+    opacity:0.5;
+    z-index: 100;
+    display: block;
+}
+
+.info {
+  display: none;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  text-align: center;
+}
+
 
 @media (min-width: 768px) {
   .fixed-left {
