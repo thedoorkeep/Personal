@@ -1,3 +1,7 @@
+.links {
+  word-spacing: 20px
+}
+
 .img {
   max-width: 100%;
 }
@@ -13,7 +17,7 @@
 }
 
 .index-logo{
-  width: 80%;
+  width: 70%;
   margin-top: 40%;
 }
 
@@ -126,8 +130,8 @@
   }
 
   .index-logo {
-    width: 70%;
-    margin-top: 10%;
+    width: 50%;
+    margin-top: 20%;
   }
 
   .scale-work {
