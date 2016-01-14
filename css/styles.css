@@ -1,3 +1,4 @@
+
 .links {
   word-spacing: 20px
 }
@@ -144,6 +145,11 @@
 
 article {
   padding-top: 50px;
+}
+
+article p {
+  margin-bottom: 20px;
+  line-height: 1.8em;
 }
 
 .background-home {
