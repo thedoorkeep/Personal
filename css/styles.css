@@ -2,15 +2,19 @@
   word-spacing: 20px
 }
 
+.work-links {
+  margin-top: 10%;
+}
+
 .img {
   max-width: 100%;
   padding-bottom: 20px;
 }
 
 .scale-work {
-  max-width: 80%;
+  height: 70%;
   padding-top: 15px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .scale {
@@ -40,15 +44,16 @@
 }
 
 .main-nav {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
+  padding: 0 auto;
 }
 
 .tappist {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
   background-image: url('../images/tappist.png');
@@ -57,8 +62,8 @@
 }
 
 .waystone {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
   background-image: url('../images/waystone.jpg');
@@ -67,8 +72,8 @@
 }
 
 .branding {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
   background-image: url('../images/homebrewing.jpg');
@@ -77,8 +82,8 @@
 }
 
 .marketing {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
   background-image: url('../images/marketing.jpg');
@@ -87,25 +92,13 @@
 }
 
 .more {
-  width: 50%;
-  height: 33vh;
+  width: 100%;
+  height: 40vh;
   text-align: center;
   float: left;
   background-image: url('../images/more.jpg');
   background-size: cover;
   background-position: center center;
-}
-
-.tappist:hover > .overlay {
-    position: absolute;
-    top: 0;
-    width:100%;
-    height:100%;
-    left: 0;
-    background-color:#000;
-    opacity:0.5;
-    z-index: 100;
-    display: block;
 }
 
 .info {
@@ -198,6 +191,69 @@
   max-width: 100%;
   padding-bottom: 20px;
   }
+
+  .work-links {
+  margin-top: 10%;
+  }
+
+  .main-nav {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  padding: 0 auto;
+}
+
+  .tappist {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  background-image: url('../images/tappist.png');
+  background-size: cover;
+  background-position: center center;
+}
+
+.waystone {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  background-image: url('../images/waystone.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.branding {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  background-image: url('../images/homebrewing.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.marketing {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  background-image: url('../images/marketing.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.more {
+  width: 50%;
+  height: 33vh;
+  text-align: center;
+  float: left;
+  background-image: url('../images/more.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
 }
 
 
