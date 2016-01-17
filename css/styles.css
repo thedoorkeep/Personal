@@ -4,16 +4,17 @@
 
 .img {
   max-width: 100%;
-}
-
-.scale {
-  width: 90%;
+  padding-bottom: 20px;
 }
 
 .scale-work {
   max-width: 80%;
   padding-top: 15px;
   margin: auto;
+}
+
+.scale {
+  width: 70%;
 }
 
 .index-logo{
@@ -115,6 +116,47 @@
   text-align: center;
 }
 
+.background-home {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  text-align: center;
+  display: fixed;
+}
+
+.header {
+  background-image: url('../images/me.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 45vh;
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-tap {
+  background-image: url('../images/tappist.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 25vh;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.header-waystone {
+  background-image: url('../images/waystone-header.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 25vh;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 
 @media (min-width: 768px) {
   .fixed-left {
@@ -137,7 +179,28 @@
   .scale-work {
   height: 80%;
   padding-top: 15px;
+  }
+
+  .background-home {
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  text-align: center;
+  display: fixed;
+  }  
+
+  .scale {
+  width: 90%;
+  }
+  
+  .img {
+  max-width: 100%;
+  padding-bottom: 20px;
+  }
 }
+
+
 
 
 article {
@@ -145,35 +208,7 @@ article {
 }
 
 article p {
-  margin-top: -15px;
-  margin-bottom: 40px;
   line-height: 1.8em;
-}
-
-article h4 {
-  margin-top: 20px;
-}
-
-article h2 {
-  margin-top: 20px;
-}
-
-article h3 {
-  margin-top: 30px;
-
-}
-
-article h5 {
-  margin-top: -20px;
-}
-
-.background-home {
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
-  text-align: center;
-  display: fixed;
 }
 
 p {
@@ -181,67 +216,5 @@ p {
   font-size: 16pt;
 }
 
-.internal-image {
-  background-size: cover;
-  background-position: center center;
-  width: auto;
-}
 
-.header {
-  background-image: url('../images/me.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 25vh;
-  margin-top: 10px;
-  text-align: center;
-}
 
-.header-tap {
-  background-image: url('../images/tappist.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 25vh;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.header-waystone {
-  background-image: url('../images/waytone-header.jpg');
-  background-size: cover;
-  background-position: center center;
-  height: 25vh;
-  margin-top: 10px;
-  text-align: center;
-}
-
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
-
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
