@@ -135,6 +135,7 @@
   height: 25vh;
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .header-waystone {
@@ -144,10 +145,35 @@
   height: 25vh;
   margin-top: 10px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .bold {
   font-weight: 700;
+}
+
+.resume-sub {
+  background-color: #1b75bb;
+  color: white;
+  padding: 5px;
+  padding-left: 20px;
+}
+
+.resume-title {
+  margin-top: -25px;
+}
+
+.resume-description {
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+
+.resume-education {
+  margin-top: -20px;
+}
+
+.resume-date {
+  margin-top: -25px;
 }
 
 
