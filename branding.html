@@ -22,11 +22,21 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/dist/css/unslider.css">
+  <link rel="stylesheet" href="sss/sss.css" type="text/css" media="all">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/logo-2.png">
+
+  <!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script src="sss/sss.min.js"></script>
+  <script>
+  jQuery(function($) {
+  $('.slider').sss();
+  });
+  </script>
 
 </head>
 <body>
@@ -47,35 +57,47 @@
        <a class="bold" href="resume.html">RESUME</a>
        <a class="bold" href="contact.html">CONTACT</a>
      </div>
-       <br>
-       <br>
-       <h2>BRANDING</h2>
-       <h4>Branding work for various clients and personal projects.</h4>
-       <button><a href="marketing.html">Next Project</a></button>
+       <h2 class="page">BRANDING</h2>
+       <h6>Branding work for various clients and personal projects.</h6>
+       <button class="button"><a href="marketing.html">Next Project</a></button>
       </div>
       <div class="fixed-right">
           <h4><b>311 South Wacker</b></h4>
-          <img class="img" src="images/311.jpg">
+          <div class="slider">
+            <img src="images/311-1.jpg" />
+            <img src="images/311-2.jpg" />
+          </div>
           <br>
           <p>
           During my time at Torque Digital, I had the pleasure of rebranding one of the defining buildings of the Chicago Skyline. We pitched several possible logos and the client ultimately chose my direction. I wanted to take the clean bold lines of the building and its iconic crown and blend them into the number itself. 
           </p>
           <h4><b>Loew Cornell</b></h4>
-          <img class="img" src="images/lc.gif">
+          <div class="slider">
+            <img src="images/lc.png" />
+            <img src="images/blue.png" />
+            <img src="images/sa.png" />
+          </div>
           <p>
           At Torque Digital, I had the opportunity to rebrand the art and craft company Loew Cornell, as well as create an identity for two of their new product brands; Simply Art, and Blue Marble. 
           </p>
           <h4><b>Goose Island Brewpubs</b></h4>
-          <img class="img" src="images/oktober.jpg">
+          <div class="slider">
+            <img src="images/oktober-1.png" />
+            <img src="images/oktober-2.jpg" />
+          </div>
           <p>
           Goose Island Brewpubs was looking to create a varient on their chicago flag logo to be used on their mugs for Oktoberfest. I chose to replicate this with a bold German style font and diamonds reminicent of Oktoberfest patterns. 
           </p>
           <h4><b>Homebrewing</b></h4>
-          <img class="img" src="images/homebrew.gif">
+          <div class="slider">
+            <img src="images/bru.png" />
+            <img src="images/mf.png" />
+            <img src="images/reddit.jpg" />
+          </div>
           <p>
           As an active homebrewer, I've made several friends in the online world of homebrewing and was happy to assist creating identies for both a reddit forum and multiple high profile homebrewing blogs. 
           </p>
-          <img class="img" src="images/blackened.jpg">
+          <img class="img" src="images/porter.jpg">
           <p>
           Additionally, I also enjoy bottling and branding my own homebrew.
           </p>

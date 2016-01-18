@@ -282,8 +282,22 @@
 
 }
 
+.page {
+  margin-top: 20px;
+}
 
+.page-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
 
+.button {
+  margin-bottom: 20px;
+}
+
+.social {
+  margin-bottom: 150px;
+}
 
 article {
   padding-top: 50px;
